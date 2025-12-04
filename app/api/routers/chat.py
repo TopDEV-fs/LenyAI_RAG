@@ -7,12 +7,11 @@ from docx import Document
 from app.services.medgemma import generate_medical_message, generate_prompt
 from app.services.ingest_pmc import semantic_search
 from app.services.constant import questions, prompt_for_chatgpt,system_prompt_for_compare, prompt_for_compare
-from app.core.config import OPENAI_API_KEY
+from app.core.config import settings
 from openai import OpenAI
 import os
 
-openai_client = OpenAI(api_key=OPENAI_API_KEY)
-
+openai_client = OpenAI(api_key=settings.OPENAI_API_KEY)
 router = APIRouter()
 
 router = APIRouter()
