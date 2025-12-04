@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env*
+venv/
+ENV/
+env/
+*.egg-info/
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Logs
+*.log
+
+# Test and coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# FastAPI/Starlette
+instance/
+
+# Other
+*.sqlite3
+*.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Build
+build/
+dist/
+
+# Documentation
+__pypackages__/
+
+# Custom
+# Add any other files/folders to ignore below
+# Sensitive config
+app/core/config.py
